@@ -11,5 +11,5 @@ struct/class BST_Node{
 ## Tasks 
 ### 1. Implement an Insert Function
 ### 2. Implement :
-	* In-Order Traversal
-	* Searching Function
+* In-Order Traversal
+* Searching Function
