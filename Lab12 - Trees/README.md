@@ -8,6 +8,6 @@ struct/class BST_Node{
 	BST_Node* RightChild;
 };
 ~~~
-# Task 1 : Implement an Insert Function
+## Task 1 : Implement an Insert Function
 
-# Task 2 : Implement In-Order Traversal and Searching Function
+## Task 2 : Implement In-Order Traversal and Searching Function
