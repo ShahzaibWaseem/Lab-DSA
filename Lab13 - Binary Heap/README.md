@@ -9,7 +9,7 @@ Implement the Following functions while maintaining the basic property of Heap.
 3. Pop() : Deletes the root Node from the Heap
 4. isEmpty() : Tells whether the Heap is empty
 5. size() : Returns the size of the Heap
-6. height() : Returns the height of the Heap `height = log<sub>2</sub><sup>size + 1</sup> - 1`
+6. height() : Returns the height of the Heap `height = log2(size + 1) - 1`
 7. buildHeap(array) : Builds a Heap from an array passed
 8. print() : Prints out the Heap (Breadth-First Traversal)
 
