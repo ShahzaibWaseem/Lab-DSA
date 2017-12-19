@@ -9,13 +9,13 @@ Implement the Following functions while maintaining the basic property of Heap.
 3. Pop() : Deletes the root Node from the Heap
 4. isEmpty() : Tells whether the Heap is empty
 5. size() : Returns the size of the Heap
-6. height() : Returns the height of the Heap `height = log<sub>2</sub>(size + 1) - 1`
+6. height() : Returns the height of the Heap `height = log<sub>2</sub><sup>size + 1</sup> - 1`
 7. buildHeap(array) : Builds a Heap from an array passed
 8. print() : Prints out the Heap (Breadth-First Traversal)
 
 Other Functions
 
-9. left(int) : Returns the key (not value) of the left child of any node `left = 2 \cdot element) + 1`
-10. right(int) : Returns the key (not value) of the right child of any node `right = 2 \cdot element) + 2`
-11. parent(int) : Returns the key (not value) of parent of any node `parent = element - 1)/2`
+9. left(int) : Returns the key (not value) of the left child of any node `left = 2 x element + 1`
+10. right(int) : Returns the key (not value) of the right child of any node `right = 2 x element + 2`
+11. parent(int) : Returns the key (not value) of parent of any node `parent = (element - 1)/2`
 12. heapProperty(int) & heapify(int) : checks the heap property
