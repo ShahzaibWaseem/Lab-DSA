@@ -9,7 +9,7 @@ int Partition(int* Data, int first, int second){
 	int pivot, i, j;
 	pivot = Data[first];
 	i = first;			// i is the starting location of first partition
-	j = second + 1;		// j is the starting location of second partition
+	j = second + 1;			// j is the starting location of second partition
 
 	// Run the loop till i < j
 	do{
