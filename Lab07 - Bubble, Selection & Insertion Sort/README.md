@@ -1,8 +1,9 @@
 # Lab 07: Bubble, Selection & Insertion Sort
 
-The snippets of all three Sorting Algorithms are given below
+The snippets of all three Sorting Algorithms are given below (with Time Complexities).
 
 #### Bubble Sort
+*Best* : O(n^2)		*Average* : O(n^2)		*Worst* : O(n^2)
 ```cpp
 vector<int> BubbleSort(vector<int> Data){
 	for (int i = Data.size() - 1; i > 0; i--){
@@ -18,6 +19,7 @@ vector<int> BubbleSort(vector<int> Data){
 ```
 
 #### Selection Sort
+*Best* : O(n)		*Average* : O(n^2)		*Worst* : O(n^2)
 ```cpp
 vector<int> SelectionSort(vector<int> Data){
 	for (int i = Data.size() - 1; i > 0; i--){
@@ -34,7 +36,7 @@ vector<int> SelectionSort(vector<int> Data){
 ```
 
 #### Insertion Sort
-
+*Best* : O(n)		*Average* : O(n^2)		*Worst* : O(n^2)
 ```cpp
 vector<int> InsertionSort(vector<int> Data){
 	int j = 0;
