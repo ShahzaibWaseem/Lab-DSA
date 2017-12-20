@@ -53,7 +53,7 @@ void Merge(int *OriginalArray, int *LeftArray, int LeftSize, int *RightArray, in
 }
 ```
 
-The Memory Complexity are
+The Memory Complexities are
 <pre>Best : O(n log(n) )		Average : O(n log(n) )		Worst : O(n log(n) )</pre>
 
 in other words it is a tight bound of `θ(n log(n) )`.
