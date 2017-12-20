@@ -1,4 +1,4 @@
-# Lab 10: Quick Sort
+# Lab 09: Merge Sort
 
 This is the first one of the "Divide & Conquer" Algorithms that we'll study in this course and in this the array is divided into two exact equal parts and save them seperately and then plug the values in the right place and then merging them again.
 
