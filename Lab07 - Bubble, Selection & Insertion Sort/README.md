@@ -3,7 +3,7 @@
 The snippets of all three Sorting Algorithms are given below (with Time Complexities).
 
 #### Bubble Sort
-*Best* : O(n^2)		*Average* : O(n^2)		*Worst* : O(n^2)
+<pre>Best : O(n<sup>2</sup>)		Average : O(n<sup>2</sup>)		Worst : O(n<sup>2</sup>)</pre>
 ```cpp
 vector<int> BubbleSort(vector<int> Data){
 	for (int i = Data.size() - 1; i > 0; i--){
@@ -19,7 +19,7 @@ vector<int> BubbleSort(vector<int> Data){
 ```
 
 #### Selection Sort
-*Best* : O(n)		*Average* : O(n^2)		*Worst* : O(n^2)
+<pre>Best : O(n)		Average : O(n<sup>2</sup>)		Worst : O(n<sup>2</sup>)</pre>
 ```cpp
 vector<int> SelectionSort(vector<int> Data){
 	for (int i = Data.size() - 1; i > 0; i--){
@@ -36,7 +36,7 @@ vector<int> SelectionSort(vector<int> Data){
 ```
 
 #### Insertion Sort
-*Best* : O(n)		*Average* : O(n^2)		*Worst* : O(n^2)
+<pre>Best : O(n)		Average : O(n<sup>2</sup>)		Worst : O(n<sup>2</sup>)</pre>
 ```cpp
 vector<int> InsertionSort(vector<int> Data){
 	int j = 0;
