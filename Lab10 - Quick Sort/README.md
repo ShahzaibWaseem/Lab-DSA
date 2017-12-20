@@ -49,6 +49,9 @@ void QuickSort(int* Data, int head, int tail){
 }
 ```
 
+The Memory Complexity are
+<pre>Best : O(n log(n) )		Average : O(n log(n) )		Worst : O(n log(n) )</pre>
+
 ## Tasks
 
 1. Run Quick Sort on arrays of random numbers in range 1 to 100 with sizes 100, 1000, 10000.
