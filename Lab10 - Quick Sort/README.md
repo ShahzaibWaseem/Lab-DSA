@@ -4,7 +4,7 @@ In this Sorting Algorithm the original array needs to be partitioned and the rec
 
 ### Partition
 
-```
+```cpp
 int Partition(int* Data, int first, int second){
 	int pivot, i, j;
 	pivot = Data[first];
@@ -37,7 +37,7 @@ int Partition(int* Data, int first, int second){
 ```
 
 And here is the code to reconstruct the Sorted Array
-```
+```cpp
 void QuickSort(int* Data, int head, int tail){
 	if (head < tail){
 		int temp = Partition(Data, head, tail);
