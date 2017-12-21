@@ -6,7 +6,6 @@
 using namespace std;
 
 class MinimumHeap{
-	int heap_size;				// Holds the size of the Heap
 	vector <int> heap;			// Holds the Values
 public:
 	int top();					// Gets the root node without poping it
