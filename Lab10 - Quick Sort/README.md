@@ -49,7 +49,7 @@ void QuickSort(int* Data, int head, int tail){
 }
 ```
 
-The Memory Complexities are
+The Time Complexities are
 <pre>Best : O(n log(n) )		Average : O(n log(n) )		Worst : O(n<sup>2</sup>)</pre>
 
 ## Tasks
